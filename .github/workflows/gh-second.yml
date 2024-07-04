@@ -30,8 +30,4 @@ jobs:
         echo "You can run multiple commands"
         echo "All in one step"
 
-    - name: Install dependencies
-      run: npm install
 
-    - name: Run tests
-      run: npm test
